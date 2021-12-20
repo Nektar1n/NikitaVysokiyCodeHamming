@@ -1,0 +1,40 @@
+body{
+    color: darkslateblue;
+    font-size: 20px;
+}
+.wrapper{
+    background-color: antiquewhite;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}
+#title{
+    text-align: center;
+}
+.main{
+    width: 500px;
+    margin: 0 auto;
+}
+input{
+    height: 60px;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    width: 100px;
+}
+input[type='button']{
+    width: 100px;
+    background: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+input[type='button']:hover{
+    border: 8px solid darkslategrey;
+}
+#mistake{
+    height: 40px;
+    width: 200px;
+    cursor: default;
+}
+
+
